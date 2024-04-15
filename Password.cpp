@@ -45,6 +45,6 @@ bool Password::has_mixed_case(string phrase) {
             return true;
         }
     }
-    
-    return false; // Re
+    // Return false if not both conditions are met
+    return false;
 }
